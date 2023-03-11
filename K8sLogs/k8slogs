@@ -15,5 +15,5 @@ read OP
 case $OP in
 Y) open  /$HOME/Downloads/Logs/$m_POD.log;;
 N) echo "Arquivo encontra-se no caminho:  /$HOME/Downloads/Logs/$m_POD.log" ;;
-*) echo "Escolha Y ou N em caixa alta" ; k8slog ;; 
+*) echo "Escolha Y ou N em caixa alta" ; k8slogs ;; 
 esac
