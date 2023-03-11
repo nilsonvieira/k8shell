@@ -2,7 +2,7 @@
 
 m_NS=$1
 m_POD=$2
-
+ 
 # Criação da Pastas onde serão baixados os Logs
 mkdir -p /$HOME/Downloads/Logs/ >> /dev/null
 
